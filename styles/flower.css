@@ -1,4 +1,6 @@
+
 /* shared styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +14,7 @@
 }
 
 /* header styles */
+
 .header {
     height: 100vh;
     display: flex;
@@ -20,7 +23,6 @@
     background: rgba(229, 84, 115, 0.10);
     padding: 20px 150px 0px 200px;
     margin-bottom: 170px;
-    /* gap: 100px; */
 }
 
 .banner-title {
@@ -51,6 +53,10 @@
 .img-main {
     width: 600px;
 }
+
+/*main styles*/
+
+/*flower section styles*/
 
 .flower {
     max-width: 1300px;
@@ -83,7 +89,6 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    /* justify-content: space-between; */
 }
 
 .flower-name {
@@ -114,6 +119,8 @@
     background: rgba(71, 125, 17, 0.15);
 }
 
+/*sale section styles*/
+
 .sale {
     display: flex;
     align-items: center;
@@ -143,6 +150,8 @@
     line-height: 30px;
     margin-bottom: 25px;
 }
+
+/*insta section styles*/
 
 .insta {
     margin: 0px auto;
@@ -176,9 +185,17 @@
 }
 .img-insta {
     width: 300px;
-    /* margin-right: 22px; */
 }
 
+/*form styles*/
+
+.form {
+    text-align: center;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    height: 350px;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+}
 .form-title {
     color: #272727;
     font-size: 40px;
@@ -193,15 +210,6 @@
     margin-bottom: 30px;
 }
 
-.form {
-    text-align: center;
-    background-image: url("../Flower Asset/Rectangle 9.png");
-    height: 350px;
-    padding-top: 150px;
-    background-repeat: no-repeat;
-}
-
-
 input[type="email"] {
     width: 600px;
     height: 60px;
@@ -214,17 +222,34 @@ input[type="email"] {
     padding-left: 20px;
 }
 
-.footer-title {
-    color: white;
-    font-size: 48px;
-    font-weight: 800;
+/*my-section styles*/
+
+.my-section{
+    height: 350px;
+    padding-top: 180px;
+    text-align: center;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 150px;
 }
+.my-section a{
+    text-decoration: none;
+}
+.my-section-title{
+    margin-bottom: 50px;
+}
+
+/*footer styles*/
 
 footer {
     background: #111010;
     text-align: center;
-    height: 400px;
-    padding-top: 200px;
+    height: 350px;
+    padding-top: 220px;
+}
+.footer-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
 }
 
 .description1 {
