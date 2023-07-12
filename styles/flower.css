@@ -23,10 +23,6 @@
     /* gap: 100px; */
 }
 
-.banner-description-container {
-    /* padding: 150px 90px 240px 100px; */
-}
-
 .banner-title {
     color: #272727;
     font-size: 80px;
@@ -174,9 +170,13 @@
     margin-bottom: 40px;
 }
 
+.insta-images-container{
+    display: flex;
+    justify-content: space-between;
+}
 .img-insta {
     width: 300px;
-    margin-right: 22px;
+    /* margin-right: 22px; */
 }
 
 .form-title {
@@ -196,7 +196,7 @@
 .form {
     text-align: center;
     background-image: url("../Flower Asset/Rectangle 9.png");
-    height: 3700px;
+    height: 350px;
     padding-top: 150px;
     background-repeat: no-repeat;
 }
@@ -223,6 +223,8 @@ input[type="email"] {
 footer {
     background: #111010;
     text-align: center;
+    height: 400px;
+    padding-top: 200px;
 }
 
 .description1 {
